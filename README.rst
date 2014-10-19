@@ -43,3 +43,5 @@ License
 
 This project is distributed under the terms of the MIT license, see `LICENSE`
 for details. 
+
+This project has been forked from https://github.com/pablorodiz/ninja-daylight
