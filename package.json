@@ -1,0 +1,24 @@
+{
+  "name": "ninja-daylight-x",
+  "version": "0.0.1",
+  "description": "Daylight calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/wichtounet/ninja-daylight-x.git",
+  "keywords": [
+    "ninjablocks",
+    "sun",
+    "sunrise",
+    "sunset",
+    "custom",
+    "sensor"
+  ],
+  "dependencies": {
+  "suncalc": "1.2.2",
+  "date-utils": "1.2.15"
+  },
+  "author": "Baptiste Wicht",
+  "license": "MIT"
+}
