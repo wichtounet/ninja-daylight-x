@@ -11,28 +11,28 @@ Installation
 * ssh into your block
 * cd into your drivers directory
 
-```bash
-cd /opt/ninja/drivers
-```
+.. code:: bash
+
+  cd /opt/ninja/drivers
 
 * And clone the repository:
 
-```bash
-git clone git://github.com/wichtounet/ninja-daylight-x.git
-```
+.. code:: bash
+
+  git clone git://github.com/wichtounet/ninja-daylight-x.git
 
 * Once the clone is over, cd into the driver directory and install it: 
 
-```bash
-cd ninja-daylight-x
-sudo npm install
-```
+.. code:: bash
+
+  cd ninja-daylight-x
+  sudo npm install
 
 * Restart your block
 
-```bash
-sudo service ninjablock restart
-```
+.. code:: bash
+
+  sudo service ninjablock restart
 
 * Once your block has restarted, you should then see two new devices on your
   block. 
