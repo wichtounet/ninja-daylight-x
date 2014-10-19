@@ -16,8 +16,7 @@
     "sensor"
   ],
   "dependencies": {
-  "suncalc": "1.2.2",
-  "date-utils": "1.2.15"
+  "suncalc": "1.2.2"
   },
   "author": "Baptiste Wicht",
   "license": "MIT"
