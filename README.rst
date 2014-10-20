@@ -38,6 +38,30 @@ Installation
   block. 
 * You have to add states 'day' and 'night' to the "Daylight state" device.
 
+Update
+------
+
+* ssh into your block
+* cd into the driver directory
+
+.. code:: bash
+
+  cd /opt/ninja/drivers/ninja-daylight-x/
+
+* And update the repository:
+
+.. code:: bash
+
+  git pull origin master
+
+* Restart your block
+
+.. code:: bash
+
+  sudo service ninjablock restart
+  
+And that's it ;)
+
 License
 -------
 
