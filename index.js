@@ -1,4 +1,5 @@
 var counter_device = require('./lib/counter_device');
+var reverse_counter_device = require('./lib/reverse_counter_device');
 var state_device = require('./lib/state_device');
 var util = require('util')
 var stream = require('stream')
@@ -18,8 +19,10 @@ function daylight_x_driver(opts,app) {
         }
 
         var sd = new state_device(opts, app);
-        self.emit('register', new counter_device(opts, app, sd));
+        var rcd = new reverse_counter_device(opts, app);
+        self.emit('register', new counter_device(opts, app, sd, rcd));
         self.emit('register', sd);
+        self.emit('register', rcd);
     });
 };
 
